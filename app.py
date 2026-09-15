@@ -17,7 +17,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-MODEL_PATH = Path("models/churn_model.pkl")
+MODEL_PATH = Path("churn_model.pkl")
 LOG_PATH = Path("logs/prediction_log.csv")
 LOG_PATH.parent.mkdir(exist_ok=True)
 
